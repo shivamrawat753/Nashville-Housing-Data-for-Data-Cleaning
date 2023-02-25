@@ -121,10 +121,10 @@ WITH row_numCTE AS (
 SELECT *
 -> FROM row_numCTE
 -> WHERE row_num > 1
-
+```
 ------------------------------------------------------------------------------------------
 
--- **Remove Unused Columns**
+--**Remove Unused Columns**
 ```
 SELECT *
 -> FROM nashville_housing_data
